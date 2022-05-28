@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <title>Chole Bathure</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/Website_CSS.css">
+ </head>
+
+  <body>
+   
+   <header style="position: fixed; top: 0%;">
+      <!-- position has been changed -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>Food <em>Bite</em></h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="best-features">
+        <div style="position: relative; top: 110px;" class="container">
+          
+            
+          </div>
+        </div>
+      </div>
+
+      <div id="signup1">
+        <!DOCTYPE html>
+<html>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+</style>
+<body>
+
+
+<div style="border-style: inherit; border-radius: 1%;">
+	<form name="tandc" ng-submit="approveTandC()">
+				<div class="panel panel-default" style="margin-top:20px;">
+					<div class="panel-body" style="max-height:600px; overflow-y:scroll; background-color:white;">
+						<div style="text-align:center;">
+							<h1>Terms and Conditions</h1>
+							<p>
+								We take security seriously at FoodBite. If you are a security researcher or expert, and believe you’ve identified security-related issues with FoodBite’s website or apps, we would appreciate you disclosing it to us responsibly.Our team is committed to addressing all security issues in a responsible and timely manner, and ask the security community to give us the opportunity to do so before disclosing them publicly. Please submit a bug to us on our HackerOne page, along with a detailed description of the issue and steps to reproduce it, if any. We trust the security community to make every effort to protect our users data and privacy.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id="id02" style="text-align:center;" ng-if="settings.Authentication.RequireTermsAndConditions && !UserInfo.approvedTermsAndConditions && UserInfo.isAuthenticated">
+					<button onclick="myOnClick()">Agree to Terms and Conditions</button>
+          <!-- <button style="margin:20px;" class="btn btn-primary" type="submit" onclick="myfunction()">Agree to Terms and Conditions</button> -->
+				</div>
+			</form>
+</div>
+
+
+
+
+
+<script>
+// Get the modal
+// var modal = document.getElementById('id01');
+
+// // When the user clicks anywhere outside of the modal, close it
+// window.onclick = function(event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
+// }
+
+// var a=document.getElementById("myfunction()");
+// function myOnClick()
+// {
+//   document.location.href="login.html";
+// }
+
+</script>
+
+</body>
+</html>
+
+        
+      </div>
+            
+            
+  
+
+      <footer>
+        <div style="margin-top: 20px;" class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="inner-content">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; 
+      function clearField(t){                 
+      if(! cleared[t.id]){                     
+          cleared[t.id] = 1; 
+          t.value='';     
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+
+  </body>
+
+</html>
